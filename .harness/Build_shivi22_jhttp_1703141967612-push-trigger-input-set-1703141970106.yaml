@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_shivi22_jhttp_1703141967612-push-trigger-input-set
+  identifier: Build_shivi22_jhttp_1703141967612pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: proj1
+  pipeline:
+    identifier: Build_shivi22_jhttp_1703141967612
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
