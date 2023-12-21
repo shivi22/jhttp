@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_shivi22_jhttp_1703141967612-pr-trigger-input-set
+  identifier: Build_shivi22_jhttp_1703141967612prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: proj1
+  pipeline:
+    identifier: Build_shivi22_jhttp_1703141967612
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
